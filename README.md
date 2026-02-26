@@ -1,10 +1,13 @@
 Amazon Music Clustering 
+
 Overview: 
+
         Domain : Music Analytics / Unsupervised Machine Learning
 A Unsupervised  Machine learning project , In this project we are going to analyze patterns in features such as tempo, energy, danceability, and more and organize songs into meaningful clusters. 
 
 
 Project Deliverables: 
+
 * Exploring  & Understanding The Data
       * Correcting the data types 
       * Correcting the columns names 
@@ -25,9 +28,6 @@ Project Deliverables:
       * Chill acoustic 
       * High Energy Party
       * Party Tracks Rap and Live recording 
-
-
-
 
 
 
