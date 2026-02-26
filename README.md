@@ -9,24 +9,43 @@ A Unsupervised  Machine learning project , In this project we are going to analy
 Project Deliverables: 
 
 * Exploring  & Understanding The Data
-      * Correcting the data types 
-      * Correcting the columns names 
-      * Dropping the unwanted column 
+* 
+      * Correcting the data types
+  
+      * Correcting the columns names
+  
+      * Dropping the unwanted column
+  
 * Preprocessing :
-      * handling missing values, 
-      * duplicates values, 
+  
+      * handling missing values,
+   
+      * duplicates values,
+  
       * and feature scaling
+  
 * Clustering implementation using multiple clustering Algorithm
+  
       * KMeans
-      * DBSCAN 
+  
+      * DBSCAN
+  
       * Hierarchical clustering(agglomerative)
-* Visualization 
+  
+* Visualization
+  
       * Barchart
+  
       * Boxplot
+  
       * Distribution plot
-* Key insights 
-      * Chill acoustic 
+  
+* Key insights
+  
+      * Chill acoustic
+  
       * High Energy Party
+  
       * Party Tracks Rap and Live recording 
 
 
@@ -46,44 +65,75 @@ Business Use Cases:
 
 
 Technology Used : 
+
    * Python 3.13 ,
+     
    * Pandas 2.3.3 ,
+     
    * Matplotlib ,
+     
    * Seaborn ,
+     
    * Streamlit ,
+     
    * Pickle
+     
    * Scikit-learn 1.8.0
+     
    * Unsupervised Machine Learning Algorithm,
+     
    * KMeans,
+     
    * DBSCAN,
-   * Hierarchical Cluster Algorithm. 
+     
+   * Hierarchical Cluster Algorithm.
+     
 Feature Selection: 
+
    * Danceability
+     
    * Energy
+     
    * Loudness
+     
    * Speechiness
+     
    * Acousticness
+     
    * Instrumentalness
+     
    * Liveness
+     
    * Valence
+     
    * Tempo
+     
    * duration_ms
 
 
 
 
 Run Application:  
+
    * Created Virtual Machine And activate them
-   * Run the Jupiter notebook 
+     
+   * Run the Jupiter notebook
+     
    * Run the python py file It will be redirected to web Browser.
+     
 Feature Scaling:
+
         Applied StandardScaler to normalize all features to the same scale
         (mean = 0, std = 1) for Distance-Based clustering.
+        
 Key Insights : 
+
         Cluster A : HighDanceability, High Energy, High Valence, High Tempo, 
                        Low Acoustic → High Energy Party 
+                       
         Cluster B: High Danceability, Medium to High Energy Liveness →
                       “Party Tracks Rap and Live Recordings” 
+                      
         Cluster C: Low Energy, High Acoustic, low Tempo → “Chill Acoustic” 
   
 
