@@ -92,6 +92,7 @@ Key Insights :
 
 
 Optimal clutter Using Elbow Method : 
+
  Here I tried many values to k like, 1 to 9 and getting inertia values(WCSS) within the cluster sum of squares. 
    1. Elbow method is Graph of distortion score WCSSvs k  
    2. It is looking like elbow 
@@ -100,8 +101,8 @@ Optimal clutter Using Elbow Method :
 
 
   
+After 3 there is no sharp decrease. K = 3 is the optimal cluster 
 
-Here  we can see after 3 there is no sharp decrease. K = 3 is the optimal cluster 
 METHODOLOGY  ⚓: 
         KMeans, DBSCAN, Hierarchical (Aggolomerative) 
 KMeans Clustering 👍: 
@@ -127,8 +128,8 @@ Model_Deployment🌐:
    * Then those inputs are Scaled and given to the model 
    * Model is predicted which type of cluster Based on the user input  
                 Cluster 0 → "Energetic Dance Tracks"
-Cluster 1 → "Balanced Vocal Songs"
-Cluster 2 → "Calm Acoustic" 
+                Cluster 1 → "Rap and live Songs"
+                Cluster 2 → "Calm Acoustic" 
 
 
     Finally the input Features colored by red color with existing Scatter plot
